@@ -1,3 +1,15 @@
+:root{
+  --dark-blue: #1d273b;
+  --middle-blue: #2570ff;
+  --light-blue: #5D6678;
+  --purple-blue: #667db6;
+  --gray:#adb6c7;
+  --light-green: #1FDE82;
+  --white: #fff;
+  --light-gray: #f2f2f2;
+  --white-gray: #f2f5fc;
+}
+
 .App {
   text-align: center;
 }
@@ -21,12 +33,12 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
 }
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 
 @keyframes App-logo-spin {
   from {
